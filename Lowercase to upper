@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void) {
+  char a,upp;
+  scanf("%c",&a);
+
+  upp=a-32;
+  printf("%c",upp);
+  
+  return 0;
+}
